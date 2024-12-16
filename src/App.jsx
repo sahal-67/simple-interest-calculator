@@ -13,7 +13,7 @@ function App() {
   const [isInvalidrate,setInvaildrate]= useState(false)
   const [isInvalidyear,setInvaildyear]= useState(false)
 
-  const [Interest,setInterest]= useState("")
+  const [Interest,setInterest]= useState(0)
 
   const vaildRegex=/^[0-9]*.?[0-9]+$/
 
